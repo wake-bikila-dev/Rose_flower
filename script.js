@@ -64,7 +64,6 @@ const petalMaterial = new THREE.MeshPhysicalMaterial({
     opacity: 0.95
 });
 
-// curved petal geometry
 function createPetalGeometry(width, length, bend) {
     const geom = new THREE.PlaneGeometry(width, length, 16, 16);
     const pos = geom.attributes.position;
